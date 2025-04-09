@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PostureVibe - Loja Oficial</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Inter', sans-serif; background-color: #f5f7fa; color: #333; line-height: 1.6; }
+    header { background-color: #0a6fbf; color: #fff; padding: 40px 20px; text-align: center; }
+    header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+    nav { background-color: #084a87; display: flex; justify-content: center; padding: 10px 0; }
+    nav a { color: #fff; text-decoration: none; margin: 0 20px; font-weight: 600; }
+    main { max-width: 1200px; margin: 40px auto; padding: 0 20px; }
+    .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
+    .product-card { background: #fff; border-radius: 15px; box-shadow: 0 8px 24px rgba(0,0,0,0.05); padding: 20px; text-align: center; transition: transform 0.3s ease; }
+    .product-card:hover { transform: translateY(-5px); }
+    .product-card img { max-width: 100%; border-radius: 10px; margin-bottom: 15px; }
+    .product-card h3 { color: #0a6fbf; font-size: 1.25rem; margin-bottom: 10px; }
+    .product-card p { font-size: 0.95rem; margin-bottom: 15px; }
+    .price { font-size: 1.1rem; color: #27ae60; font-weight: bold; margin-bottom: 10px; }
+    .buy-btn { background-color: #0a6fbf; color: #fff; padding: 12px 20px; border: none; border-radius: 6px; font-weight: bold; cursor: pointer; text-decoration: none; display: inline-block; }
+    .buy-btn:hover { background-color: #084a87; }
+    footer { background-color: #0a6fbf; color: #fff; text-align: center; padding: 20px; margin-top: 60px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>PostureVibe</h1>
+  <p>Transformando seu bem-estar com tecnologia e conforto</p>
+</header>
+
+<nav>
+  <a href="#produtos">Produtos</a>
+  <a href="#sobre">Sobre</a>
+  <a href="#contato">Contato</a>
+</nav>
+
+<main>
+  <section id="produtos">
+    <h2 style="text-align:center; margin-bottom: 30px;">Produtos em Destaque</h2>
+    <div class="products">
+      <div class="product-card">
+        <img src="https://example.com/massageador.jpg" alt="Massageador de Pescoço">
+        <h3>Massageador de Pescoço Inteligente</h3>
+        <p>Alivie tensões com aquecimento e pulsações relaxantes. Ideal para escritório ou casa.</p>
+        <div class="price">R$129,90</div>
+        <a class="buy-btn" href="https://mpago.la/XXXXXXXX">Comprar</a>
+      </div>
+
+      <div class="product-card">
+        <img src="https://example.com/correia.jpg" alt="Corretor de Postura">
+        <h3>Corretor de Postura Premium</h3>
+        <p>Melhore sua postura de forma eficaz com alças confortáveis e ajustáveis.</p>
+        <div class="price">R$89,90</div>
+        <a class="buy-btn" href="https://mpago.la/XXXXXXXX">Comprar</a>
+      </div>
+
+      <div class="product-card">
+        <img src="https://example.com/almofada.jpg" alt="Almofada Ortopédica">
+        <h3>Almofada Ortopédica com Gel</h3>
+        <p>Conforto e ergonomia para quem fica horas sentado. Protege sua coluna e bumbum.</p>
+        <div class="price">R$99,90</div>
+        <a class="buy-btn" href="https://mpago.la/XXXXXXXX">Comprar</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre" style="margin-top:60px;">
+    <h2>Sobre a PostureVibe</h2>
+    <p style="margin-top:10px; max-width:700px;">Somos uma loja especializada em produtos de bem-estar e postura, focados em trazer soluções acessíveis e tecnológicas para sua rotina. Qualidade, conforto e segurança em cada entrega.</p>
+  </section>
+
+  <section id="contato" style="margin-top:60px;">
+    <h2>Contato</h2>
+    <p>Email: suporte@posturevibe.com.br</p>
+    <p>WhatsApp: (27) 988037184</p>
+    <p>Instagram: @posturevibe</p>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 PostureVibe. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
